@@ -17,7 +17,7 @@ export default function Navbar () {
             <NavButton title={'shop'} />
           </div>
         </div>
-        <div className='flex items-center'>
+        <div className='flex md:flex-row flex-col items-center'>
           <div
             className='flex-col justify-center'
             style={{ fontFamily: 'Acumin' }}
@@ -29,7 +29,7 @@ export default function Navbar () {
               You have (1) New Inbox
             </h2>
           </div>
-          <div className='flex flex-row my-5 md:h-18 md:mt-8  md:right-4'>
+          <div className='flex flex-row  md:right-4'>
             <img
               src='https://media.discordapp.net/attachments/1121636278765617172/1121666700883001404/mobile_18.png'
               className='cursor-pointer'
