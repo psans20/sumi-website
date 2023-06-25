@@ -4,12 +4,12 @@ export default function Navbar () {
   return (
     <div className=' md:fixed top-0 w-full'>
       {/* // eslint-disable-next-line jsx-a11y/alt-text */}
-      <div className='flex md:flex-row flex-col justify-between w-full md:px-28 items-center'>
+      <div className='flex md:flex-row flex-col justify-between w-full 2xl:px-20 items-center'>
         <div className='flex md:flex-row flex-col items-center'>
           <img
             src='https://media.discordapp.net/attachments/1121636278765617172/1121636393714720768/mobile_02.png'
             alt=''
-            className='h-36 '
+            className='h-36'
           />
           <div className='flex md:flex-row flex-col'>
             <NavButton title={'home'} />
@@ -17,7 +17,7 @@ export default function Navbar () {
             <NavButton title={'shop'} />
           </div>
         </div>
-        <div className='flex md:flex-row flex-col items-center'>
+        <div className='flex md:flex-row flex-wrap flex-col items-center'>
           <div
             className='flex-col justify-center'
             style={{ fontFamily: 'Acumin' }}
