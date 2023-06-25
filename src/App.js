@@ -7,7 +7,7 @@ function Home (props) {
     <div className='flex flex-col items-center justify-center bg'>
       <Navbar />
 
-      <div class='p-4 border-black border-2 mt-40 h-72 w-80 rounded-3xl shadow-slate-500 shadow-md flex-col justify-center items-center bg2'>
+      <div class='p-4 border-black border-2 md:mt-40 h-72 w-80 rounded-3xl shadow-slate-500 shadow-md flex-col justify-center items-center bg2'>
         <span
           className='text-white text-3xl'
           style={{ fontFamily: 'Pristina' }}

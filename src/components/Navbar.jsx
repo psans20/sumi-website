@@ -2,16 +2,16 @@ import React from 'react'
 
 export default function Navbar () {
   return (
-    <div className='md:flex md:flex-row fixed top-0  w-full'>
+    <div className=' md:fixed top-0 w-full'>
       {/* // eslint-disable-next-line jsx-a11y/alt-text */}
-      <div className='flex justify-between w-full md:px-28 items-center'>
-        <div className='flex items-center'>
+      <div className='flex md:flex-row flex-col justify-between w-full md:px-28 items-center'>
+        <div className='flex md:flex-row flex-col items-center'>
           <img
             src='https://media.discordapp.net/attachments/1121636278765617172/1121636393714720768/mobile_02.png'
             alt=''
             className='h-36 '
           />
-          <div>
+          <div className='flex md:flex-row flex-col'>
             <NavButton title={'home'} />
             <NavButton title={'forum'} />
             <NavButton title={'shop'} />
@@ -59,7 +59,7 @@ export default function Navbar () {
 
 function NavButton ({ title }) {
   return (
-    <button className='border-black relative mr-4 border-2 h-[55px]  w-60 md:h-[55px] md:w-56 rounded-full shadow-slate-500 bg-bg2 hover:bg-opacity-80 shadow-md'>
+    <button className='border-black mb-2 relative mr-4 border-2 h-[55px]  w-60 md:h-[55px] md:w-56 rounded-full shadow-slate-500 bg-bg2 hover:bg-opacity-80 shadow-md'>
       <div className='absolute h-full w-full rounded-full top-3 top-box  z-20'></div>
       <div className='absolute h-full w-full  top-0 z-10 rounded-full '></div>
       {/* <div className=' rounded-t-3xl bg-gradient-to-b w-full h-1/2 absolute from-white  top-0'></div> */}
