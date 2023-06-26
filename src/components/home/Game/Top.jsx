@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Top () {
   return (
-    <div className='col-span-3'>
+    <div className='col-span-3 pl-14'>
       <div class='p-4  border-black border-2 h-48  rounded-full shadow-slate-500 shadow-md flex flex-col px-12 justify-center mt-12 bg2'>
         <span
           className='text-white text-3xl pb-2'
