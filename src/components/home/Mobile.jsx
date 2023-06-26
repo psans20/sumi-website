@@ -3,7 +3,6 @@ import React from 'react'
 export default function Mobile () {
   return (
     <>
-
       <div class='p-4  border-black border-2 md:mt-40 h-72 w-80 rounded-3xl shadow-slate-500 shadow-md flex-col justify-center items-center bg2'>
         <span
           className='text-white text-3xl'
@@ -24,61 +23,19 @@ export default function Mobile () {
         </a>
       </div>
       {/* Latest News  */}
-      <div class='p-4 border-black border-2 h-96 w-68 rounded-3xl shadow-slate-500 shadow-md flex flex-col items-center mt-12 bg2'>
-        <span
-          className='text-white text-3xl mb-4'
-          style={{ fontFamily: 'Pristina' }}
-        >
-          Latest News
-        </span>
-        <span
-          className='text-white text-3xl'
-          style={{ fontFamily: 'Pristina' }}
-        >
-          User Ranking List+
-        </span>
-        <span
-          className='text-white text-3xl'
-          style={{ fontFamily: 'Pristina' }}
-        >
-          Latest Announcements+{' '}
-        </span>
-        <span
-          className='text-white text-3xl'
-          style={{ fontFamily: 'Pristina' }}
-        >
-          Best Maps on Zero Ops+{' '}
-        </span>
-        <span
-          className='text-white text-3xl'
-          style={{ fontFamily: 'Pristina' }}
-        >
-          Release date of Zero Ops+{' '}
-        </span>
-        <span
-          className='text-white text-3xl'
-          style={{ fontFamily: 'Pristina' }}
-        >
-          Newest Blogs+{' '}
-        </span>
-        <span
-          className='text-white text-3xl'
-          style={{ fontFamily: 'Pristina' }}
-        >
-          Zero Ops Highlights+{' '}
-        </span>
-        <span
-          className='text-white text-3xl'
-          style={{ fontFamily: 'Pristina' }}
-        >
-          New Maps for Zero Ops+{' '}
-        </span>
-        <span
-          className='text-white text-3xl mt-6 ml-12'
-          style={{ fontFamily: 'Pristina' }}
-        >
-          View All{' '}
-        </span>
+      <div
+        style={{ fontFamily: 'Pristina' }}
+        class='p-4 border-black border-2 h-96 w-68 rounded-3xl shadow-slate-500 shadow-md flex flex-col items-center mt-12 bg2'
+      >
+        <span className='text-white text-3xl mb-4'>Latest News</span>
+        <span className='text-white text-3xl'>User Ranking List+</span>
+        <span className='text-white text-3xl'>Latest Announcements+ </span>
+        <span className='text-white text-3xl'>Best Maps on Zero Ops+ </span>
+        <span className='text-white text-3xl'>Release date of Zero Ops+ </span>
+        <span className='text-white text-3xl'>Newest Blogs+ </span>
+        <span className='text-white text-3xl'>Zero Ops Highlights+ </span>
+        <span className='text-white text-3xl'>New Maps for Zero Ops+ </span>
+        <span className='text-white text-3xl mt-6 ml-12'>View All </span>
       </div>
 
       <div class='p-4 border-black border-2 h-48 w-[350px] rounded-full shadow-slate-500 shadow-md flex flex-col items-center justify-center mt-12 bg2'>
@@ -142,7 +99,7 @@ export default function Mobile () {
         <span className='text-white text-3xl'>Android</span>
         <span className='text-white text-3xl'>ios</span>
       </div>
-      
+
       <div
         style={{ fontFamily: 'Pristina' }}
         class='p-4 border-black border-2 h-48 w-60 rounded-3xl shadow-slate-500 shadow-md flex flex-col items-center mt-12 mb-24 bg2'
