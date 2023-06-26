@@ -1,5 +1,5 @@
 import React from 'react'
-import Game from './home/Game'
+import Game from './home/Game/Game'
 import MediaC from './home/Media/MediaC'
 import Announcements from './home/Announcements/Announcements'
 
