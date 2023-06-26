@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Navbar () {
   return (
-    <div className=' md:fixed top-0 w-full'>
+    <div className=' md:fixed mb-2 top-0 w-full'>
       {/* // eslint-disable-next-line jsx-a11y/alt-text */}
       <div className='flex md:flex-row flex-col justify-between w-full 2xl:px-20 items-center'>
         <div className='flex md:flex-row flex-col items-center'>
