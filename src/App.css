@@ -1,11 +1,13 @@
 .bg {
   background-color: #ffc7d1;
 }
-
-button {
+body {
+  background-color: #ffc7d1;
+}
+.bg2 {
   background-color: #e1065b;
 }
 
-.bg2 {
-  background-color: #e1065b;
+.top-box {
+  box-shadow: 0px -14px 3px rgba(255, 255, 255, 0.401),  0px -8px 6px rgba(255, 255, 255, 0.321), 0px -10px 9px rgba(255, 255, 255, 0.161); 
 }
