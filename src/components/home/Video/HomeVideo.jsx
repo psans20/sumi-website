@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function HomeVideo () {
   return (
-    <>
+    <div className='p-4 w-full h-full border-black border-2 rounded-3xl shadow-slate-500 shadow-md flex-col justify-center items-center bg2'>
       <span className='text-white text-3xl' style={{ fontFamily: 'Pristina' }}>
         Latest Video
       </span>
@@ -17,6 +17,6 @@ export default function HomeVideo () {
           className='w-72 h-48'
         />
       </a>
-    </>
+    </div>
   )
 }
