@@ -2,17 +2,16 @@ import React from 'react'
 import Mobile from './Mobile'
 import Navbar from '../Navbar'
 import Layout from '../Layout'
-import Announcements from '../layout/Announce/Announcements'
-import Game from '../layout/Game/Game'
-import MediaC from '../layout/Media/MediaC'
-import Messages from './Media/Messages'
-import LatestNews from './Announcements/LatestNews'
+import Announcements from '../layout/Middle/Middle'
+import Game from '../layout/Bottom/Bottom'
+import MediaC from '../layout/Top/Top'
+import Messages from '../shared/Media/Messages'
+import LatestNews from '../shared/Announcements/LatestNews'
 
 import Pokemon from './Game/Pokemon'
 import Top from './Game/Top'
-import Feed from './Announcements/Feed'
-import VideoContent from './Media/VideoContent'
-import Video from '../layout/Media/Video'
+import Feed from '../shared/Announcements/Feed'
+import VideoContent from '../shared/Media/VideoContent'
 
 export default function Home () {
   return (
@@ -25,9 +24,9 @@ export default function Home () {
 
         <Layout>
           <MediaC>
-            <Video>
+        
               <VideoContent/>
-            </Video>
+          
             <Messages />
           </MediaC>
           <Announcements>
