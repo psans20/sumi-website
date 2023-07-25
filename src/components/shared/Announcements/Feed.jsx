@@ -3,7 +3,7 @@ import React from 'react'
 export default function Feed () {
   return (
     <div className='col-span-3 pl-6'>
-      <div class='p-4 pl-3 w-full border-black border-2 h-96  rounded-3xl shadow-slate-500 shadow-md flex flex-col  mt-12 bg2'>
+      <div className='p-4 pl-3 w-full border-black border-2 h-96  rounded-3xl shadow-slate-500 shadow-md flex flex-col  mt-12 bg2'>
         <span
           className='text-white text-3xl mb-4 text-left'
           style={{ fontFamily: 'Pristina' }}

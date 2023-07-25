@@ -4,7 +4,7 @@ export default function LatestNews () {
   return (
     <div
       style={{ fontFamily: 'Pristina' }}
-      class='p-4 col-span-1 border-black border-2 h-96 w-68 rounded-3xl shadow-slate-500 shadow-md flex flex-col items-center mt-12 bg2'
+      className='p-4 col-span-1 border-black border-2 h-96 w-68 rounded-3xl shadow-slate-500 shadow-md flex flex-col items-center mt-12 bg2'
     >
       <span className='text-white text-3xl mb-4'>Latest News</span>
       <span className='text-white text-3xl'>User Ranking List+</span>

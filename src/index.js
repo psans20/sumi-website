@@ -12,8 +12,8 @@ const router = createBrowserRouter([
     element: <App />, 
     children: [
       {
-        path: "team",
-        element: () => <h1>Test</h1>,
+        path: "forum",
+        element: <App/>,
         loader: () => <h1>Loading...</h1>,
       },
     ],
