@@ -1,7 +1,6 @@
 import React from 'react'
 import Mobile from './home/Mobile'
 import Navbar from './Navbar'
-import Layout from './LayoutContainer'
 import Messages from './shared/Media/Messages'
 import LatestNews from './shared/Announcements/LatestNews'
 
@@ -9,8 +8,8 @@ import Pokemon from './home/Bottom/Pokemon'
 import Top from './home/Bottom/Top'
 import Feed from './shared/Announcements/Feed'
 import VideoContent from './shared/Media/VideoContent'
-
-export default function Home () {
+import LayoutContainer from './LayoutContainer'
+export default function Layout () {
   return (
     <>
       <div className='bg h-full w-full'>
@@ -19,7 +18,7 @@ export default function Home () {
           <Mobile />
         </div>
 
-        <Layout>
+        <LayoutContainer>
           <div className='grid grid-cols-4 pt-5'>
             <VideoContent />
             <Messages />
@@ -34,7 +33,7 @@ export default function Home () {
             <Pokemon />
             <Top />
           </div>
-        </Layout>
+        </LayoutContainer>
       </div>
     </>
   )
