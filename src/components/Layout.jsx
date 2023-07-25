@@ -5,8 +5,8 @@ import Layout from './LayoutContainer'
 import Messages from './shared/Media/Messages'
 import LatestNews from './shared/Announcements/LatestNews'
 
-import Pokemon from './home/Game/Pokemon'
-import Top from './home/Game/Top'
+import Pokemon from './home/Bottom/Pokemon'
+import Top from './home/Bottom/Top'
 import Feed from './shared/Announcements/Feed'
 import VideoContent from './shared/Media/VideoContent'
 
