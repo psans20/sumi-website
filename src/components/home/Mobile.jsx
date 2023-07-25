@@ -3,7 +3,7 @@ import React from 'react'
 export default function Mobile () {
   return (
     <>
-      <div class='p-4  border-black border-2 md:mt-40 h-72 w-80 rounded-3xl shadow-slate-500 shadow-md flex-col justify-center items-center bg2'>
+      <div className='p-4  border-black border-2 md:mt-40 h-72 w-80 rounded-3xl shadow-slate-500 shadow-md flex-col justify-center items-center bg2'>
         <span
           className='text-white text-3xl'
           style={{ fontFamily: 'Pristina' }}
@@ -25,7 +25,7 @@ export default function Mobile () {
       {/* Latest News  */}
       <div
         style={{ fontFamily: 'Pristina' }}
-        class='p-4 border-black border-2 h-96 w-68 rounded-3xl shadow-slate-500 shadow-md flex flex-col items-center mt-12 bg2'
+        className='p-4 border-black border-2 h-96 w-68 rounded-3xl shadow-slate-500 shadow-md flex flex-col items-center mt-12 bg2'
       >
         <span className='text-white text-3xl mb-4'>Latest News</span>
         <span className='text-white text-3xl'>User Ranking List+</span>
@@ -38,7 +38,7 @@ export default function Mobile () {
         <span className='text-white text-3xl mt-6 ml-12'>View All </span>
       </div>
 
-      <div class='p-4 border-black border-2 h-48 w-[350px] rounded-full shadow-slate-500 shadow-md flex flex-col items-center justify-center mt-12 bg2'>
+      <div className='p-4 border-black border-2 h-48 w-[350px] rounded-full shadow-slate-500 shadow-md flex flex-col items-center justify-center mt-12 bg2'>
         <span
           className='text-white text-3xl'
           style={{ fontFamily: 'Pristina' }}
@@ -52,7 +52,7 @@ export default function Mobile () {
         />
       </div>
 
-      <div class='p-4 border-black border-2 h-96 w-96 rounded-3xl shadow-slate-500 shadow-md flex flex-col items-center mt-12 bg2'>
+      <div className='p-4 border-black border-2 h-96 w-96 rounded-3xl shadow-slate-500 shadow-md flex flex-col items-center mt-12 bg2'>
         <span
           className='text-white text-3xl mb-4'
           style={{ fontFamily: 'Pristina' }}
@@ -70,7 +70,7 @@ export default function Mobile () {
         </span>
       </div>
 
-      <div class='p-4 border-black border-2 h-48 w-[350px] rounded-full shadow-slate-500 shadow-md flex flex-col items-center justify-center mt-12 bg2'>
+      <div className='p-4 border-black border-2 h-48 w-[350px] rounded-full shadow-slate-500 shadow-md flex flex-col items-center justify-center mt-12 bg2'>
         <span
           className='text-white text-3xl pb-2'
           style={{ fontFamily: 'Pristina' }}
@@ -93,7 +93,7 @@ export default function Mobile () {
 
       <div
         style={{ fontFamily: 'Pristina' }}
-        class='p-4 border-black border-2 h-48 w-60 rounded-3xl shadow-slate-500 shadow-md flex flex-col items-center mt-12 bg2'
+        className='p-4 border-black border-2 h-48 w-60 rounded-3xl shadow-slate-500 shadow-md flex flex-col items-center mt-12 bg2'
       >
         <span className='text-white text-3xl mb-8'>Zero Ops play now</span>
         <span className='text-white text-3xl'>Android</span>
@@ -102,7 +102,7 @@ export default function Mobile () {
 
       <div
         style={{ fontFamily: 'Pristina' }}
-        class='p-4 border-black border-2 h-48 w-60 rounded-3xl shadow-slate-500 shadow-md flex flex-col items-center mt-12 mb-24 bg2'
+        className='p-4 border-black border-2 h-48 w-60 rounded-3xl shadow-slate-500 shadow-md flex flex-col items-center mt-12 mb-24 bg2'
       >
         <span className='text-white text-3xl mb-2'>42 new messages</span>
         <span className='text-white text-3xl'>24 in my cart</span>

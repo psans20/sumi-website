@@ -5,7 +5,7 @@ export default function Messages () {
     <div className='flex flex-col items-end'>
       <div
         style={{ fontFamily: 'Pristina' }}
-        class='p-4 border-black border-2 h-48 w-60 rounded-3xl shadow-slate-500 shadow-md flex flex-col items-center mb-6 bg2'
+        className='p-4 border-black border-2 h-48 w-60 rounded-3xl shadow-slate-500 shadow-md flex flex-col items-center mb-6 bg2'
       >
         <span className='text-white text-3xl mb-8'>Zero Ops play now</span>
         <span className='text-white text-3xl'>Android</span>
@@ -13,7 +13,7 @@ export default function Messages () {
       </div>
       <div
         style={{ fontFamily: 'Pristina' }}
-        class='p-4 border-black border-2 h-48 w-60 rounded-3xl shadow-slate-500 shadow-md flex flex-col items-center   bg2'
+        className='p-4 border-black border-2 h-48 w-60 rounded-3xl shadow-slate-500 shadow-md flex flex-col items-center   bg2'
       >
         <span className='text-white text-3xl mb-2'>42 new messages</span>
         <span className='text-white text-3xl'>24 in my cart</span>

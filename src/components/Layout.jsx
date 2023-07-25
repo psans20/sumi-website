@@ -1,14 +1,11 @@
 import React from 'react'
-import Game from './home/Game/Game'
-import MediaC from './home/Media/MediaC'
-import Announcements from './home/Announcements/Announcements'
 
-export default function Layout () {
+export default function Layout ({ children }) {
   return (
-    <div className='2xl:px-52 w-full hidden md:block mt-40 pb-10'>
-      <MediaC />
-      <Announcements />
-      <Game />
+    <div className='flex flex-col items-center justify-center bg w-full'>
+      <div className='2xl:px-52 w-full hidden md:block mt-40 pb-10'>
+        {children}
+      </div>
     </div>
   )
 }
